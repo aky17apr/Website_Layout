@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: rgb(194, 189, 189);
+    text-align: center;
+    padding: 25px;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: black;
+    align-items: center;
+}
+.navbar a{
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(139, 139, 227);
+}
+.navbar li{
+    float: left;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(194, 189, 189);
+    text-align: center;
+    padding: 25px;
+}
